@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Arch Linux)  (format=lualatex 2017.10.31)  6 SEP 2019 13:40
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Arch Linux)  (format=lualatex 2017.10.31)  9 SEP 2019 16:31
  restricted system commands enabled.
 **LIVRO.tex
 (./LIVRO.tex
@@ -1872,7 +1872,7 @@ Overfull \vbox (13.80586pt too high) has occurred while \output is active []
 
 
 [72] [73]
-Overfull \vbox (20.0099pt too high) has occurred while \output is active []
+Overfull \vbox (3.33499pt too high) has occurred while \output is active []
 
 
 [74] [75] [76] [77] [78] [79] [80]
@@ -2028,16 +2028,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 24839 strings out of 494472
- 3553559,953878 words of node,token memory allocated
+ 24847 strings out of 494472
+ 3553533,953878 words of node,token memory allocated
  1780 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 38 glue, 1 penalty, 160 attribute, 194 glue_spec, 4
 0 attribute_list, 3 shape, 2 write nodes
-   avail lists: 1:4,2:23116,3:6885,4:2452,5:23100,6:336786,7:67289,8:49,9:7619,1
-0:28,11:46937
- 27672 multiletter control sequences out of 65536+600000
- 120 fonts using 22269707 bytes
- 50i,14n,70p,3431b,756s stack positions out of 5000i,500n,10000p,200000b,100000s
+   avail lists: 1:6,2:23491,3:6885,4:2454,5:23137,6:336788,7:67293,8:49,9:7619,1
+0:29,11:46938
+ 27676 multiletter control sequences out of 65536+600000
+ 122 fonts using 23073415 bytes
+ 50i,14n,70p,3469b,756s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/share/texmf-dist/fonts/enc/dvips/adforn/OrnementsADF.enc}</home/editorial/
 texmf/tex/fonts/Formular-Regular.otf></usr/share/texmf-dist/fonts/opentype/publi
 c/libertine/LinLibertine_RI.otf></usr/share/texmf-dist/fonts/opentype/public/lib
@@ -2046,7 +2046,7 @@ e/LinLibertine_R.otf></home/editorial/texmf/tex/fonts/Formular-Bold.otf></usr/sh
 are/texmf-dist/fonts/type1/arkandis/adforn/OrnementsADF.pfb></usr/share/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/
 public/amsfonts/latxfont/lcirclew.pfb>
-Output written on LIVRO.pdf (508 pages, 1300496 bytes).
+Output written on LIVRO.pdf (508 pages, 1309688 bytes).
 
 PDF statistics: 1645 PDF objects out of 1728 (max. 8388607)
  1105 compressed objects within 12 object streams
