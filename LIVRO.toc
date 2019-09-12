@@ -46,7 +46,7 @@
 \contentsline {section}{\numberline {0.11}DE PRINCIPATIBUS ECCLESIASTICIS\penalty -\@M {[}De' principati ecclesiastici{]}}{294}
 \contentsline {section}{\numberline {0.11}\emph {DE PRINCIPATIBUS ECCLESIASTICIS}\penalty -\@M {[}Dos principados eclesiásticos{]}}{295}
 \contentsline {section}{\numberline {0.12}QUOT SUNT GENERA MILITIAE ET DE~MERCENNARIIS~MILITIBUS\penalty -\@M {[}Di quante ragioni sia la milizia, e de' soldati mercennarii{]}}{302}
-\contentsline {section}{\numberline {0.12}\emph {QUOT SINT GENERA MILITIAE ET DE~MERCENNARIIS~MILITIBUS}\penalty -\@M {[}De quantos são os gêneros de milícias e de soldados mercenários{]}}{303}
+\contentsline {section}{\numberline {0.12}\emph {QUOT SUNT GENERA MILITIAE ET DE~MERCENNARIIS~MILITIBUS}\penalty -\@M {[}De quantos são os gêneros de milícias e de soldados mercenários{]}}{303}
 \contentsline {section}{\numberline {0.13}DE MILITIBUS AUXILIARIIS, MIXTIS~ET~PROPRIIS\penalty -\@M {[}De' soldati aussiliari, delli aussiliari e propri insieme, e de' propri soli{]}}{316}
 \contentsline {section}{\numberline {0.13}\emph {DE MILITIBUS AUXILIARIIS, MIXTIS~ET~PROPRIIS}\penalty -\@M {[}Das milícias auxiliares, mistas~e~próprias{]}}{317}
 \contentsline {section}{\numberline {0.14}QUOD PRINCIPEM DECEAT CIRCA MILITIAM\penalty -\@M {[}Quello che s'appartenga a uno principe circa la milizia{]}}{326}
