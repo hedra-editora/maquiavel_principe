@@ -16,7 +16,7 @@
 \contentsline {subsection}{O principado no momento maquiaveliano}{83}
 \contentsline {subsection}{O principado de \emph {O Príncipe}}{87}
 \contentsline {subsection}{A herança dos \emph {espelhos de príncipes} na~noção~de~príncipe~maquiaveliana}{106}
-\contentsline {subsection}{O príncipe ciceroniano e o príncipe na república}{153}
+\contentsline {subsection}{O príncipe ciceroniano e o príncipe na república}{154}
 \contentsline {subsubsection}{O \emph {princeps} ciceroniano}{155}
 \contentsline {subsubsection}{O príncipe dos \emph {Discursos}}{162}
 \contentsline {subsubsection}{O príncipe civil entre república e principado}{177}
@@ -74,6 +74,6 @@
 \contentsline {section}{\numberline {0.25}QUANTUM FORTUNA IN REBUS HUMANIS POSSIT ET QUOMODO ILLI SIT OCCURRENDUM {[}Quanto possa la fortuna nelle cose umane e in che modo se li abbia a resistere{]}}{420}
 \contentsline {section}{\numberline {0.25}\emph {QUANTUM FORTUNA IN REBUS HUMANIS POSSIT ET QUOMODO ILLI SIT OCCURRENDU} {[}Quanto pode a fortuna nas coisas humanas e de que modo se deve resistir a ela{]}}{421}
 \contentsline {section}{\numberline {0.26}EXHORTATIO AD CAPESSENDAM ITALIAM IN LIBERTATEMQUE A BARBARIS VINDICANDAM {[}Exortazione a pigliar la difesa di Italia e liberarla dalle mani de' barbari{]}}{428}
-\contentsline {section}{\numberline {0.26}\emph {EXORTATIO AD CAPESSENDAM ITALIAM IN LIBERTATEMQUE A BARBARIS VINDICANDAM} {[}Exortação para tomar a defesa da Itália e libertá-la das mãos dos bárbaros\footnote {Convém lembrar que o termo bárbaro possuia a acepção de povo estrangeiro invasor que não possuía os costumes e, principalmente, a língua. No caso da Itália do Renascimento, haja vista o histórico de invasões de exércitos estrangeiros, conforme relatado aqui no \emph {Príncipe}, o título propõe diretamente o fim dessas invasões e a constituição de um estado italiano dominado a península itálica.}{]}}{431}
+\contentsline {section}{\numberline {0.26}\emph {EXORTATIO AD CAPESSENDAM ITALIAM IN LIBERTATEMQUE A BARBARIS VINDICANDAM} {[}Exortação para tomar a defesa da Itália e libertá"-la das mãos dos bárbaros\footnote {Convém lembrar que o termo bárbaro possuia a acepção de povo estrangeiro invasor que não possuía os costumes e, principalmente, a língua. No caso da Itália do Renascimento, haja vista o histórico de invasões de exércitos estrangeiros, conforme relatado aqui no \emph {Príncipe}, o título propõe diretamente o fim dessas invasões e a constituição de um estado italiano dominado a península itálica.}{]}}{431}
 \contentsline {chapter}{Bibliografia}{485}
 \contentsfinish 
