@@ -313,6 +313,8 @@ INPUT ./gitrevisioninfo.sty
 INPUT ./gitrevisioninfo.sty
 INPUT /usr/share/texmf-dist/tex/latex/parallel/parallel.sty
 INPUT /usr/share/texmf-dist/tex/latex/parallel/parallel.sty
+INPUT /usr/share/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT /usr/share/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /home/editorial/.texlive/texmf-var/luatex-cache/generic/fonts/otl/formular-regular.luc
 INPUT /home/editorial/.texlive/texmf-var/luatex-cache/generic/fonts/otl/formular-bold.luc
 INPUT /usr/share/texmf-dist/tex/latex/tools/afterpage.sty
