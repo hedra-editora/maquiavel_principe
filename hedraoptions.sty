@@ -94,15 +94,15 @@
 }
 
 \DeclareOption{largepost}{%
-  \setbinding{5mm}
+  \setbinding{6mm} 						%{5mm} [para ajustar o header]
   \stockaiv 
   \settrimmedsize{210mm}{130mm}{*}
-  \settypeblocksize{176mm}{100mm}{1.75}
-  \setlrmargins{*}{*}{1.5}
-  \setulmargins{*}{*}{2}
+  \settypeblocksize{*}{100mm}{1.68} 	%{176mm}{100mm}{1.75} [para ajustar o header]
+  \setlrmargins{*}{*}{1.5} 				%{*}{*}{1.5} [para ajustar o header]
+  \setulmargins{*}{*}{2.7}				%{*}{*}{2} [para ajustar o header]
 %  \setheadfoot{5mm}{10mm}
-  \setheaderspaces{*}{*}{1}
-  \headsep=4pt
+  %\setheaderspaces{*}{*}{1}			%{*}{*}{1} [para ajustar o header]
+  \headsep=5mm							%=4pt [para ajustar o header]
 }
 
 \DeclareOption{bolso}{%

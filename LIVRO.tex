@@ -1,4 +1,4 @@
-\documentclass[showtrims,trimframe,12pt,conselho,spreadimages]{memoir}
+\documentclass[semcabeco,showtrims,trimframe,12pt,conselho,spreadimages]{memoir}
 
 \usepackage[largepost]{hedraoptions} %% << %%%%%%%%%%%%%%%%
 \usepackage[baruch]{hedrastyles}
@@ -21,6 +21,16 @@
 \linespread{1.15}
 
 \newcommand{\quebra}{\vfil\pagebreak}
+
+
+
+%\newcommand{\paragraphbr}[1]{\vfill\pagebreak\paragraph{#1}}
+%\renewcommand\theparagraph{\roman{paragraph}}
+%\newcommand{\quebra}{\vfil\pagebreak}
+%\newcommand{\est}{\vspace{10cm}}
+%\newenvironment{mesma}%
+   %{\par\samepage}%
+   %{\par\pagebreak[0]}
 
 \usepackage{multirow}
 \usepackage{graphicx}
@@ -139,6 +149,8 @@ BoldFont = Formular-Bold.otf]
 %  {#1\\[2ex]\Large\itshape#2}%
 %}
 
+
+
 \begin{document}
 %\include{INPUTS}
 \include{NOTA}
@@ -148,6 +160,7 @@ BoldFont = Formular-Bold.otf]
 \begin{Parallel}[p]{}{} 
 \ParallelLText{\selectlanguage{italian} \input{ITALIANO}} 
 \ParallelRText{\setcounter{section}{0} \input{PORTUGUES}} %
+
 
 \renewcommand{\ParallelAtEnd}{\noindent{}\vspace{1cm}\Large{Notas}}
 \end{Parallel} 
