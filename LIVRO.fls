@@ -323,10 +323,10 @@ INPUT /home/editorial/texmf/tex/commands.sty
 INPUT /home/editorial/texmf/tex/commands.sty
 INPUT ./LIVRO.aux
 INPUT ./LIVRO.aux
-INPUT ./NOTA.aux
-INPUT ./NOTA.aux
 INPUT ./INTRO.aux
 INPUT ./INTRO.aux
+INPUT ./NOTA.aux
+INPUT ./NOTA.aux
 INPUT ./BIBLIO.aux
 INPUT ./BIBLIO.aux
 INPUT ./PUBLICIDADE.aux
@@ -380,9 +380,6 @@ INPUT ./PRETAS.tex
 INPUT ./PRETAS.tex
 INPUT ./LIVRO.toc
 INPUT ./LIVRO.toc
-OUTPUT NOTA.aux
-INPUT ./NOTA.tex
-INPUT ./NOTA.tex
 OUTPUT INTRO.aux
 INPUT ./INTRO.tex
 INPUT ./INTRO.tex
@@ -398,6 +395,9 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+OUTPUT NOTA.aux
+INPUT ./NOTA.tex
+INPUT ./NOTA.tex
 INPUT ./ITALIANO.tex
 INPUT ./ITALIANO.tex
 INPUT ./PORTUGUES.tex
@@ -428,10 +428,10 @@ INPUT ./PUBLICIDADE.tex
 INPUT ./PUBLICIDADE.tex
 OUTPUT LIVRO.toc
 INPUT ./LIVRO.aux
-INPUT ./NOTA.aux
-INPUT ./NOTA.aux
 INPUT ./INTRO.aux
 INPUT ./INTRO.aux
+INPUT ./NOTA.aux
+INPUT ./NOTA.aux
 INPUT ./BIBLIO.aux
 INPUT ./BIBLIO.aux
 INPUT ./PUBLICIDADE.aux

@@ -1,0 +1,9 @@
+PWD /home/editorial/LATEX/COLECAO_HEDRA/maquiavel_principe
+INPUT /usr/share/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT PORTUGUES.tex
+OUTPUT PORTUGUES.log
+INPUT /usr/share/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+OUTPUT PORTUGUES.pdf
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
