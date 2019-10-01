@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Arch Linux)  (format=lualatex 2017.10.31)  26 SEP 2019 18:37
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Arch Linux)  (format=lualatex 2017.10.31)  1 OCT 2019 15:03
  restricted system commands enabled.
 **LIVRO.tex
 (./LIVRO.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.232 seconds
+luaotfload | main : initialization completed in 0.240 seconds
 Babel <3.12> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/memoir/memoir.cls
 Document Class: memoir 2016/05/16 v3.7f configurable book, report, article docum
@@ -1774,7 +1774,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Formular-Regular' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+(load luc: /home/editorial/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmm
+ono12-regular.luc)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+(load luc: /home/editorial/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmm
+ono8-regular.luc) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1829,8 +1836,8 @@ Overfull \vbox (16.50404pt too high) has occurred while \output is active []
 [27]
 Overfull \vbox (15.60323pt too high) has occurred while \output is active []
 
-
-[28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38]
+(load luc: /home/editorial/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmm
+ono10-regular.luc) [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 856.
 
@@ -1946,7 +1953,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--190
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 324--329
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 351--358
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--533
 
  []
 
@@ -1998,17 +2015,17 @@ Underfull \hbox (badness 4181) in paragraph at lines 1405--1405
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2574--2574
+Underfull \hbox (badness 10000) in paragraph at lines 2576--2576
 []\TU/LinuxLibertineO(0)/bx/n/10.95 CUR ITA-LIAE PRIN-CI-PES RE-GNUM AMI-SE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2654--2661
+Underfull \hbox (badness 10000) in paragraph at lines 2656--2663
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2672--2677
+Underfull \hbox (badness 10000) in paragraph at lines 2674--2680
 
  []
 
@@ -2076,8 +2093,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-[496] [497] [498] [499] [500] [501] [502] [503] [504] [505] [506] [507])
-[508
+(load luc: /home/editorial/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmm
+ono9-regular.luc) [496] [497] [498] [499] [500] [501] [502] [503] [504]
+[505] [506] [507]) [508
 
 ]
 \tf@toc=\write5
@@ -2086,15 +2104,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
  (./LIVRO.aux (./INTRO.aux) (./NOTA.aux) (./BIBLIO.aux) (./PUBLICIDADE.aux)))
 
 Here is how much of LuaTeX's memory you used:
- 24882 strings out of 494472
- 3553602,953878 words of node,token memory allocated
+ 24902 strings out of 494472
+ 3553593,953878 words of node,token memory allocated
  1797 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 39 glue, 1 penalty, 164 attribute, 194 glue_spec, 4
 1 attribute_list, 3 shape, 2 write nodes
-   avail lists: 1:4,2:24076,3:7894,4:2562,5:23110,6:337372,7:67694,8:191,9:7597,
+   avail lists: 1:6,2:24161,3:7899,4:2563,5:23115,6:337406,7:67700,8:191,9:7611,
 10:28,11:46950
- 27705 multiletter control sequences out of 65536+600000
- 118 fonts using 23643015 bytes
+ 27717 multiletter control sequences out of 65536+600000
+ 124 fonts using 24399679 bytes
  50i,15n,70p,1486b,732s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/share/texmf-dist/fonts/enc/dvips/adforn/OrnementsADF.enc}</home/editorial/
 texmf/tex/fonts/Formular-Regular.otf></usr/share/texmf-dist/fonts/opentype/publi
@@ -2102,13 +2120,14 @@ c/libertine/LinLibertine_RBI.otf></usr/share/texmf-dist/fonts/opentype/public/li
 bertine/LinLibertine_RI.otf></usr/share/texmf-dist/fonts/opentype/public/liberti
 ne/LinLibertine_RB.otf></usr/share/texmf-dist/fonts/opentype/public/libertine/Li
 nLibertine_R.otf></home/editorial/texmf/tex/fonts/Formular-Bold.otf></usr/share/
-texmf-dist/fonts/type1/arkandis/adforn/OrnementsADF.pfb></usr/share/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/latxfont/lcirclew.pfb>
-Output written on LIVRO.pdf (508 pages, 1314773 bytes).
+texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf></usr/share/texmf-dist/f
+onts/type1/arkandis/adforn/OrnementsADF.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+latxfont/lcirclew.pfb>
+Output written on LIVRO.pdf (508 pages, 1360795 bytes).
 
-PDF statistics: 1652 PDF objects out of 1728 (max. 8388607)
- 1109 compressed objects within 12 object streams
+PDF statistics: 1659 PDF objects out of 1728 (max. 8388607)
+ 1113 compressed objects within 12 object streams
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

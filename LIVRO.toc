@@ -26,7 +26,7 @@
 \select@language {italian}
 \select@language {italian}
 \contentsline {paragraph}{\numberline {{\fontencoding {TU}\selectfont I}}QUOT SINT GENERA PRINCIPATUUM ET QUIBUS MODIS ACQUIRANTUR\\ {[}Di quante ragioni sieno e'principati e in che modo si acquistino{]}}{196}
-\contentsline {paragraph}{\numberline {{\fontencoding {TU}\selectfont I}}\emph {QUOT SINT GENERA PRINCIPATUUM ET QUIBUS MODIS~ACQUIRANTUR}\\ {[}Quantos são os gêneros dos principados e de que modos são adquiridos{]}}{197}
+\contentsline {paragraph}{\numberline {{\fontencoding {TU}\selectfont I}}\emph {QUOT SINT GENERA PRINCIPATUUM ET QUIBUS MODIS ACQUIRANTUR}\\ {[}Quantos são os gêneros dos principados e de que modos são adquiridos{]}}{197}
 \contentsline {paragraph}{\numberline {{\fontencoding {TU}\selectfont II}}DE PRINCIPATIBUS HEREDITARIIS\\ {[}De' principati ereditari{]}}{198}
 \contentsline {paragraph}{\numberline {{\fontencoding {TU}\selectfont II}}\emph {DE PRINCIPATIBUS HEREDITARIIS}\\ {[}Dos principados hereditários{]}}{199}
 \contentsline {paragraph}{\numberline {{\fontencoding {TU}\selectfont III}}DE PRINCIPATIBUS MIXTIS\\ {[}De' principati misti{]}}{200}
@@ -64,7 +64,7 @@
 \contentsline {paragraph}{\numberline {{\fontencoding {TU}\selectfont XIX}}DE CONTEMPTU ET ODIO FUGIENDO\\ {[}In che modo si abbia a fuggire lo essere sprezzato e odiato{]}}{358}
 \contentsline {paragraph}{\numberline {{\fontencoding {TU}\selectfont XIX}}\emph {DE CONTEMPTU ET ODIO FUGIENDO}\\ {[}Como se deve evitar ser desprezado e odiado{]}}{359}
 \contentsline {paragraph}{\numberline {{\fontencoding {TU}\selectfont XX}}AN ARCES ET MULTA ALIA, QUAE QUOTTIDIE A PRINCIPIBUS FIUNT, UTILIA AN INUTILIA SINT\\ {[}Se le fortezze e molte altre cose che ogni giono si fanno da' principi, per conservazione del loro stato, sono utili o no{]}}{384}
-\contentsline {paragraph}{\numberline {{\fontencoding {TU}\selectfont XX}}\emph {AN ARCES ET MULTA ALIA QUAE QUOTIDIE A PRINCIPIBUS FIUNT UTILIA AN INUTILIA SINT} {[}Se as fortalezas e muitas outras coisas que cotidianamente os príncipes fazem são úteis ou inúteis{]}}{385}
+\contentsline {paragraph}{\numberline {{\fontencoding {TU}\selectfont XX}}\emph {AN ARCES ET MULTA ALIA QUAE QUOTIDIE A PRINCIPIBUS FIUNT UTILIA AN INUTILIA SINT}\\ {[}Se as fortalezas e muitas outras coisas que cotidianamente os príncipes fazem são úteis ou inúteis{]}}{385}
 \contentsline {paragraph}{\numberline {{\fontencoding {TU}\selectfont XXI}}QUOD PRINCIPEM DECEAT UT EGREGIUS HABEATUR\\ {[}Quello che s' appartenga fare a uno principe per esserre stimato e reputato{]}}{396}
 \contentsline {paragraph}{\numberline {{\fontencoding {TU}\selectfont XXI}}\emph {QUOD PRINCIPEM DECEAT UT EGREGIUS HABEATUR}\\ {[}O que convém a um príncipe para que seja estimado{]}}{397}
 \contentsline {paragraph}{\numberline {{\fontencoding {TU}\selectfont XXII}}DE HIS QUOS A SECRETIS PRINCIPES HABENT\\ {[}De' secretari ch'e' principi hanno apresso di loro{]}}{406}

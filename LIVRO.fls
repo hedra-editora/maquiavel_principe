@@ -351,6 +351,8 @@ INPUT /usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 INPUT /usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 INPUT /usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /home/editorial/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmmono12-regular.luc
+INPUT /home/editorial/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmmono8-regular.luc
 OUTPUT LIVRO.pdf
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
@@ -389,6 +391,7 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /home/editorial/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
@@ -420,6 +423,7 @@ INPUT ./BIBLIO.tex
 OUTPUT PUBLICIDADE.aux
 INPUT ./PUBLICIDADE.tex
 INPUT ./PUBLICIDADE.tex
+INPUT /home/editorial/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmmono9-regular.luc
 OUTPUT LIVRO.toc
 INPUT ./LIVRO.aux
 INPUT ./INTRO.aux
