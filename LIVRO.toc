@@ -1,4 +1,4 @@
-\select@language {brazilian}
+\babel@toc {brazilian}{}
 \hyphenpenalty =10000\thispagestyle {empty}
 \contentsline {chapter}{Introdução, \emph {por José Martins}}{7}
 \contentsline {section}{Considerações iniciais}{7}
@@ -7,7 +7,7 @@
 \contentsline {subsubsection}{O contexto maquiaveliano: entre o republicanismo popular~e~o~republicanismo~aristocrático}{24}
 \contentsline {subsubsection}{A saída da Chancelaria e o final da vida}{33}
 \contentsline {subsection}{As edições}{39}
-\contentsline {subsection}{Estrutura do Argumento}{52}
+\contentsline {subsection}{Estrutura do Argumento}{53}
 \contentsline {subsection}{O ``Pequeno tratado sobre as repúblicas''}{56}
 \contentsline {section}{O Príncipe Civil}{69}
 \contentsline {subsection}{Os pressupostos para o poder régio}{69}
@@ -15,16 +15,16 @@
 \contentsline {subsection}{O principado no momento maquiaveliano}{79}
 \contentsline {subsection}{O principado de \emph {O Príncipe}}{83}
 \contentsline {subsection}{A herança dos \emph {espelhos de príncipes} na~noção~de~príncipe~maquiaveliana}{102}
-\contentsline {subsection}{O príncipe ciceroniano e o príncipe na república}{150}
+\contentsline {subsection}{O príncipe ciceroniano e o príncipe na república}{149}
 \contentsline {subsubsection}{O \emph {princeps} ciceroniano}{151}
 \contentsline {subsubsection}{O príncipe dos \emph {Discursos}}{158}
 \contentsline {subsubsection}{O príncipe civil entre república e principado}{173}
 \contentsline {chapter}{Nota da tradução}{187}
 \contentsline {part}{O Príncipe}{191}
-\select@language {italian}
-\select@language {brazilian}
-\select@language {italian}
-\select@language {italian}
+\babel@toc {italian}{}
+\babel@toc {brazilian}{}
+\babel@toc {italian}{}
+\babel@toc {italian}{}
 \contentsline {paragraph}{\numberline {{\fontencoding {TU}\selectfont I}}QUOT SINT GENERA PRINCIPATUUM ET QUIBUS MODIS ACQUIRANTUR\\ {[}Di quante ragioni sieno e'principati e in che modo si acquistino{]}}{196}
 \contentsline {paragraph}{\numberline {{\fontencoding {TU}\selectfont I}}\emph {QUOT SINT GENERA PRINCIPATUUM ET QUIBUS MODIS ACQUIRANTUR}\\ {[}Quantos são os gêneros dos principados e de que modos são adquiridos{]}}{197}
 \contentsline {paragraph}{\numberline {{\fontencoding {TU}\selectfont II}}DE PRINCIPATIBUS HEREDITARIIS\\ {[}De' principati ereditari{]}}{198}
