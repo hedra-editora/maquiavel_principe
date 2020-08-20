@@ -60,8 +60,8 @@ INPUT /home/edlab/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman1
 INPUT /usr/share/texlive/texmf-dist/tex/latex/memoir/mempatch.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/memoir/mempatch.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/memoir/mempatch.sty
-INPUT ./hedraoptions.sty
-INPUT ./hedraoptions.sty
+INPUT /home/edlab/texmf/tex/hedraoptions.sty
+INPUT /home/edlab/texmf/tex/hedraoptions.sty
 INPUT /home/edlab/texmf/tex/hedrastyles.sty
 INPUT /home/edlab/texmf/tex/hedrastyles.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
@@ -311,6 +311,8 @@ INPUT ./gitrevisioninfo.sty
 INPUT ./gitrevisioninfo.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/parallel/parallel.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/parallel/parallel.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /home/edlab/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/formular-regular.luc
@@ -346,8 +348,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT /home/edlab/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmmono12-regular.luc
-INPUT /home/edlab/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmmono8-regular.luc
 OUTPUT LIVRO.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
@@ -372,6 +372,16 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr5.tfm
 INPUT /home/edlab/texmf/tex/frontconselho.tex
 INPUT /home/edlab/texmf/tex/frontconselho.tex
+INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT ./PRETAS.tex
 INPUT ./PRETAS.tex
 INPUT ./PRETAS.tex
@@ -386,7 +396,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /home/edlab/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
@@ -418,7 +427,6 @@ INPUT ./BIBLIO.tex
 OUTPUT PUBLICIDADE.aux
 INPUT ./PUBLICIDADE.tex
 INPUT ./PUBLICIDADE.tex
-INPUT /home/edlab/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmmono9-regular.luc
 OUTPUT LIVRO.toc
 INPUT ./LIVRO.aux
 INPUT ./INTRO.aux
@@ -432,3 +440,4 @@ INPUT ./PUBLICIDADE.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/arkandis/adforn/OrnementsADF.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcirclew.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb

@@ -3,7 +3,7 @@
 {\Formular{\Huge{\titulagemfront{}}}}
 \vspace{11.25mm}
 
-\LARGE{\autor}
+{\Formular\LARGE{\autor}}
 \vfill
 \clearpage
 
@@ -22,12 +22,13 @@
 \linha{indicação}{\indicacao}\smallskip
 \linha{edição}{\edicao}
 \linha{coedição}{\coedicao}
-\linha{assistência editorial}{\assistencia}
+%\linha{assistência editorial}{\assistencia}
+\linhalayout{editor-assistente}{Paulo Henrique Pompermaier}
 \linha{revisão}{\revisao}
 \linha{preparação}{\preparacao}
 \linha{iconografia}{\iconografia}
-\linhalayout{projeto da coleção}{Lucas Kröeff}
-\linha{capa}{\capa}
+\linhalayout{capa e projeto gráfico}{Lucas Kröeff}
+%\linha{capa}{\capa}
 \linha{imagem da capa}{\imagemcapa}\smallskip
 \linha{ISBN}{\ISBN}\smallskip
 \begingroup\tiny
@@ -44,7 +45,7 @@ Portuguesa de 1990, em vigor no Brasil desde 2009.}\\
 
 %
 \textsc{editora hedra ltda.}\\
-R.~Fradique Coutinho, 1139 (subsolo)\\
+R.~Fradique Coutinho, 1139\\
 05416--011 São Paulo \textsc{sp} Brasil\\
 Telefone/Fax +55 11 3097 8304\\\smallskip
 editora@hedra.com.br\\
@@ -57,17 +58,19 @@ Foi feito o depósito legal.\\\endgroup
 {\Formular{\Huge{\titulagem}}}
 \vspace{11.25mm}
 
-{\LARGE{\autor} \par}%\vspace{1.5ex}}
+{\Formular\LARGE{\autor} \par}%\vspace{1.5ex}}
 \vspace{6cm} %9.3cm
-\ifdef{\organizador}{{\small {\organizador} (\textit{organização})} \par}{}
-\ifdef{\introdutor}{{\small {\introdutor} \\\vspace*{-1mm}(\textit{introdução e tradução})} \par}{}\vspace{8.5mm}
+\ifdef{\organizador}{{\small {\organizador} (\textit{organização})} \par}{}{}
+\ifdef{\introdutor}{{\small {\introdutor}\\ (\textit{introdução e tradução})} \par}{}
 %\ifdef{\tradutor}{{\small {\tradutor} (\textit{tradução})}\par}{}\vspace{8.5mm}
+
+\vspace{8.5mm}
 
 {{\footnotesize{} \ifdef{\numeroedicao}{\numeroedicao}{3}ª edição revisada e ampliada} \par}
 %logos
 \vfill
 \normalsize
-%\ifdef{\logo}{\IfFileExists{\logo}{\hfill\includegraphics[width=3cm]{\logo}\hfill\logoum{}\\ São Paulo\_\the\year}}{\logoum\break{} São Paulo\_\the\year}
+\ifdef{\logo}{\IfFileExists{\logo}{\hfill\includegraphics[width=3cm]{\logo}\hfill\logoum{}\\ São Paulo\_\the\year}}{\logoum\break{} São Paulo\quad\the\year}
 %\includegraphics[width=.4\textwidth,trim=0 0 25 0]{logo.jpg}\\\smallskip
 \par\clearpage\endgroup
 % Resumo -------------------------------------------------------
