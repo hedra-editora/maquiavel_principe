@@ -1,4 +1,4 @@
-\documentclass[semcabeco,showtrims,trimframe,12pt,conselho,spreadimages]{memoir}
+\documentclass[showtrims,trimframe,12pt,conselho,spreadimages]{memoir}
 
 \usepackage[largepost]{hedraoptions} %% << %%%%%%%%%%%%%%%%
 \usepackage[baruch]{hedrastyles}
@@ -61,37 +61,12 @@
 %\usepackage{endnotes}
 %\renewcommand{\notesname}{Notas}
 
-%\lhead[\fancyplain{}]{}
-%\chead[\fancyplain{}]{}
-%\rhead[\fancyplain{}]{\cnvt{\thepage} -- \thepage}
-
-%\newcommand*{\cnvt}[1]{\the\numexpr#1-1\relax}
-
-%\fancypagestyle{chapter}{
-%\pagestyle{fancy}
-%\setlength{\headheight}{5mm}
-%\fancyhf{}
-%\fancyhead[R]{\thepage}
-%\renewcommand{\headrulewidth}{0pt}}
-
-
-%\usepackage{footmisc}
-
-%\renewcommand*\footnoterule{}
-%\fancyhf[RO]{\cnvt{\thepage} -- \thepage}
-%\fancyfoot{}
-%\renewcommand{\headrulewidth}{0pt}
-%\renewcommand{\footrulewidth}{0pt}}
-
 \usepackage{fontspec}
 
-%\usepackage{Formular}
 \newfontfamily\Formular{Formular-Regular}[
-BoldFont = Formular-Bold.otf]	
+BoldFont = Formular-Bold.otf,
+ItalicFont = Formular-Italic.otf]	
 
-%--------------------------------------------ALTERAR DISTÃNCIA ENTRE TÍTULO DO SUMÁRIO E CAPÍTULOS
-%\addtocontents{toc}{\vskip-15pt}
-%--------------------------------------------
 \usepackage{afterpage}
 
 \newcommand\blankpage{%
@@ -99,15 +74,6 @@ BoldFont = Formular-Bold.otf]
     \thispagestyle{empty}%
     \addtocounter{page}{0}%
     \newpage}
-
-%\usepackage{imakeidx} 
-%\makeindex[program=xindy, options=-C utf8 -L portuguese]
-%\newcommand\gobbleone[1]{}
-%\newcommand*{\seeonly}[2]{\ (\emph{\seename} #1)}
-%\newcommand*{\also}[2]{\emph{cf.} #1}
-%\newcommand{\Also}[2]{\emph{See also} #1}
-%\renewcommand\indexname{Índice onomástico}
-%\makeindex[intoc]
 
 \setcounter{tocdepth}{0}
 \setcounter{secnumdepth}{-2} 
@@ -156,25 +122,10 @@ BoldFont = Formular-Bold.otf]
 
 \newcommand{\mystar}{{\fontfamily{lmr}\selectfont$\star$}}
 
-%\makeatletter
-%\renewcommand{\@chapapp}{}% Not necessary...
-%\newenvironment{chapquote}[2][2em]
-%  {\setlength{\@tempdima}{#1}%
-%   \def\chapquote@author{#2}%
-%   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
-%   \itshape}
-%  {\par\scriptsize\hfill-- \chapquote@author\hspace*{\@tempdima}\par\bigskip}
-%\makeatother
-
-%\newcommand\Chapter[2]{\chapter
-%  [#1\hfil\hbox{}\protect\linebreak{\itshape#1}]%
-%  {#1\\[2ex]\Large\itshape#2}%
-%}
 
 
 
 \begin{document}
-%\include{INPUTS}
 \include{INTRO}
 
 \include{NOTA}
@@ -182,24 +133,15 @@ BoldFont = Formular-Bold.otf]
 \part[o príncipe]{O Príncipe\break\textit{De principatibus}}
 
 \begin{Parallel}[p]{}{} 
+\hedramarkboth{maquiavel}{o príncipe}
 \ParallelLText{\selectlanguage{italian} \input{ITALIANO}} 
 \ParallelRText{\selectlanguage{brazilian} \input{PORTUGUES}} %
-
-
 \renewcommand{\ParallelAtEnd}{\noindent{}\vspace{1cm}\Large{Notas}}
 \end{Parallel} 
+\pagebreak
+\thispagestyle{empty}
+
+
 
 \include{BIBLIO}
- %\pagebreak
- %\def\contentsname{Índice}
- %\setcounter{tocdepth}{1}
- %\tableofcontents
-
-%\pagebreak
-%\addcontentsline{toc}{chapter}{Notas}
-%\theendnotes
-
-% Minitoc
- 
-
  \end{document}
