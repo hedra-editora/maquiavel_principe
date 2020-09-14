@@ -1,4 +1,4 @@
-\documentclass[showtrims,trimframe,12pt,conselho,spreadimages,twoside]{memoir}
+\documentclass[showtrims,12pt,conselho,spreadimages,twoside]{memoir}
 
 \usepackage[largepost]{hedraoptions} %% << %%%%%%%%%%%%%%%%
 \usepackage[baruch]{hedrastyles}
@@ -19,10 +19,14 @@
 \makepagestyle{intro}
 \makeevenhead{intro}{}{\textsc{introdução}}{}
 \makeoddhead{intro}{}{\textsc{josé martins}}{}
+\makeevenfoot{intro}{}{\footnotesize\thepage}{}
+\makeoddfoot{intro}{}{\footnotesize\thepage}{}
 
 \makepagestyle{nota}
 \makeevenhead{nota}{}{\textsc{nota da tradução}}{}
 \makeoddhead{nota}{}{\textsc{josé martins}}{}
+\makeevenfoot{nota}{}{\footnotesize\thepage}{}
+\makeoddfoot{nota}{}{\footnotesize\thepage}{}
 
 \newcommand{\forceindent}{\leavevmode{\parindent=1,4em\indent}}
 
@@ -41,7 +45,7 @@
 \renewcommand\linenumberfont{\Libertine\normalfont\small}
 
 \newcommand{\paragraphbr}[1]{\vfill\pagebreak\paragraph{#1}}
-\renewcommand\theparagraph{\roman{paragraph}}
+\renewcommand\theparagraph{\textsc\roman{paragraph}}
 \newcommand{\quebra}{\vfil\pagebreak}
 \newcommand{\est}{\vspace{10cm}}
 \newenvironment{mesma}%
@@ -88,6 +92,8 @@
 \newfontfamily\Formular{Formular-Regular}[
 BoldFont = Formular-Bold.otf,
 ItalicFont = Formular-Italic.otf]	
+
+\newfontfamily\Brabo{FS Brabo Pro Regular}
 
 \usepackage{afterpage}
 
