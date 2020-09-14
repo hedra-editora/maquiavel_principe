@@ -724,8 +724,10 @@ pois,
 a
 seguinte
 divisão:
+\par
+\noindent
 \resizebox
-{8.4cm}{!}{
+{9.7cm}{!}{
 \begin
 {tabular}{|ll|l|l|l|}
 \hline
@@ -873,6 +875,7 @@ pela\\
 \end
 {tabular}
 }
+\par
 Outro
 aspecto
 que

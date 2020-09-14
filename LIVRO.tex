@@ -1,4 +1,4 @@
-\documentclass[showtrims,trimframe,12pt,conselho,spreadimages]{memoir}
+\documentclass[showtrims,trimframe,12pt,conselho,spreadimages,twoside]{memoir}
 
 \usepackage[largepost]{hedraoptions} %% << %%%%%%%%%%%%%%%%
 \usepackage[baruch]{hedrastyles}
@@ -15,6 +15,14 @@
 \usepackage{versos}
 \usepackage{gitrevisioninfo}
 \usepackage{parallel}
+
+\makepagestyle{intro}
+\makeevenhead{intro}{}{\textsc{introdução}}{}
+\makeoddhead{intro}{}{\textsc{josé martins}}{}
+
+\makepagestyle{nota}
+\makeevenhead{nota}{}{\textsc{nota da tradução}}{}
+\makeoddhead{nota}{}{\textsc{josé martins}}{}
 
 \newcommand{\forceindent}{\leavevmode{\parindent=1,4em\indent}}
 
@@ -33,7 +41,7 @@
 \renewcommand\linenumberfont{\Libertine\normalfont\small}
 
 \newcommand{\paragraphbr}[1]{\vfill\pagebreak\paragraph{#1}}
-\renewcommand\theparagraph{\Roman{paragraph}}
+\renewcommand\theparagraph{\roman{paragraph}}
 \newcommand{\quebra}{\vfil\pagebreak}
 \newcommand{\est}{\vspace{10cm}}
 \newenvironment{mesma}%
@@ -58,8 +66,22 @@
 \usepackage{graphicx}
 
 
-%\usepackage{endnotes}
-%\renewcommand{\notesname}{Notas}
+\usepackage{endnotes}
+\renewcommand{\notesname}{Notas}
+
+\let\latexchapter\chapter
+\makeatletter
+\renewcommand\enoteheading{%
+  \setcounter{secnumdepth}{-2}
+  \latexchapter*{\notesname\markboth{NOTAS}{}}
+  \mbox{}\par\vskip-\baselineskip
+  \let\@afterindentfalse\@afterindenttrue
+}
+\makeatother
+
+%\def\enoteformat{\rightskip=0pt \leftskip=0pt \parindent=0em
+%  \leavevmode\llap{\makeenmark}}
+
 
 \usepackage{fontspec}
 
@@ -126,9 +148,9 @@ ItalicFont = Formular-Italic.otf]
 
 
 \begin{document}
-\include{INTRO}
+{\pagestyle{intro}\include{INTRO}}
 
-\include{NOTA}
+{\pagestyle{nota}\include{NOTA}}
 
 \part[o príncipe]{O Príncipe\break\textit{De principatibus}}
 
@@ -136,12 +158,20 @@ ItalicFont = Formular-Italic.otf]
 \hedramarkboth{maquiavel}{o príncipe}
 \ParallelLText{\selectlanguage{italian} \input{ITALIANO}} 
 \ParallelRText{\selectlanguage{brazilian} \input{PORTUGUES}} %
-\renewcommand{\ParallelAtEnd}{\noindent{}\vspace{1cm}\Large{Notas}}
+%\renewcommand{\ParallelAtEnd}{\noindent{}\vspace{1cm}\Large{Notas}}
 \end{Parallel} 
 \pagebreak
 \thispagestyle{empty}
+\movetooddpage
+\addcontentsline{toc}{chapter}{Notas}
+\theendnotes
 
+% \pagebreak
+ %\def\contentsname{Índice}
+ %\setcounter{tocdepth}{4}
+ %\tableofcontents
 
-
+\pagebreak
+\thispagestyle{empty}
 \include{BIBLIO}
  \end{document}
